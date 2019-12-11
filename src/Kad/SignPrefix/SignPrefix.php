@@ -8,7 +8,7 @@ use pocketmine\{Server, Player};
 use pocketmine\math\Vector3;
 use pocketmine\tile\Sign;
 use pocketmine\event\Listener;
-use pockeymine\event\player\PlayerInteractEvent;
+use pocketmine\event\player\PlayerInteractEvent;
 
 class SignPrefix extends PluginBase implements Listener{
 
