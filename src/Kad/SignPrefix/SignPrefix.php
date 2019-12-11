@@ -25,7 +25,15 @@ class SignPrefix extends PluginBase implements Listener{
             if($sign[0]=='[RANK]'){
                 if(empty($sign[1]) !== true){
                     $prefix = $sign[1];
-                    $event->getPlayer()->sendMessage();
+                    $pc = $this->getServer()->getPluginManager()->getPlugin("PureChat");
+                    $player = $event->getPlayer();
+                    $pc->setPrefix($prefix, $player);
+                    $event->getPlayer()->sendMessage("Your Prefix has been set to " . $prefix);
                  }else{
-                    $event->getPlayer()->sendMessage();
+                    $event->getPlayer()->sendMessage("An error has occurred.");
+                 }
+             }
+        }
+    }
+}
      
