@@ -10,7 +10,7 @@ use pocketmine\tile\Sign;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerInteractEvent;
 
-class SignPrefix implements Listener{
+class SignPrefix extends PluginBase implements Listener{
 
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
