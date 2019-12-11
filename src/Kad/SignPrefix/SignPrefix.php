@@ -14,6 +14,10 @@ class SignPrefix extends PluginBase implements Listener{
 
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        if(!$this->getServer()->getPluginManager()->getPlugin("PureChat")->isEnabled()) {
+            $this->getLogger()->warning("PureChat was not found. SignPrefix will NOT be able to work without PureChat. Disabling SignPrefix");
+            $this->getServer()->getPluginManager()->disablePlugin("SignPrefix");
+        }
     }
     public function onInteract(PlayerInteractEvent $event){
         if($event->getBlock()->getID() == 323 || $event->getBlock()->getID() == 63 || $event->getBlock()->getID() == 68){
