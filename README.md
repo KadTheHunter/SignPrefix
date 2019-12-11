@@ -1,3 +1,6 @@
+[![](https://poggit.pmmp.io/shield.state/SignPrefix)](https://poggit.pmmp.io/p/SignPrefix)
+<a href="https://poggit.pmmp.io/p/SignPrefix"><img src="https://poggit.pmmp.io/shield.state/SignPrefix"></a>
+
 # SignPrefix
 Allows players to set their prefix via a Sign
 
