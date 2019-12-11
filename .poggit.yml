@@ -4,6 +4,7 @@ branches:
 projects:
   SignPrefix:
     path: ""
+    icon: "icon.png"
 ...
 
 
