@@ -1,6 +1,9 @@
 [![](https://poggit.pmmp.io/shield.state/SignPrefix)](https://poggit.pmmp.io/p/SignPrefix)
 <a href="https://poggit.pmmp.io/p/SignPrefix"><img src="https://poggit.pmmp.io/shield.state/SignPrefix"></a>
 
+# IMPORTANT NOTE
+As of March 15th 2021, this plugin is officially archived and unmaintained. It has no permissions, and has only been lightly tested. Although no one wants it, and it was rejected by poggit as junk, I'm leaving it here just in case.
+
 # SignPrefix
 Allows players to set their prefix via a Sign
 
